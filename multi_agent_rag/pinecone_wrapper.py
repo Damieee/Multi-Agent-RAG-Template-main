@@ -50,8 +50,8 @@ class PineconeManager:
     def __init__(
         self,
         api_key: str,
-        index_name: str,
         environment: str,
+        index_name: str = "ditech-index",
         embedding_model: str = "all-MiniLM-L6-v2",
         dimension: int = 384,
         metric: str = "cosine",

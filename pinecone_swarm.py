@@ -30,5 +30,5 @@ router = AgentRearrange(
 
 if __name__ == "__main__":
     router.run(
-        "Analyze this Lucas Brown's medical data to provide a diagnosis and treatment plan"
+        "what is cybersecurity"
     )
